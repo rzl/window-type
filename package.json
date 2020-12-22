@@ -1,0 +1,30 @@
+{
+  "name": "window-type",
+  "version": "1.0.0",
+  "description": "window-type",
+  "main": "./dist/window-type.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack ./app/main.js --output dist/window-type.js",
+    "dev": "webpack-dev-server --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzl/window-type.git"
+  },
+  "keywords": [
+    "window",
+    "type"
+  ],
+  "author": "rzl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzl/window-type/issues"
+  },
+  "homepage": "https://github.com/rzl/window-type#readme",
+  "devDependencies": {
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
